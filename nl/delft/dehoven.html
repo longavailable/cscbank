@@ -25,8 +25,8 @@
           }),
           new ol.layer.Vector({
             title: 'added Layer',
-            source: new ol.source.GeoJSON({
-              projection : 'EPSG:3857',
+            source: new ol.source.Vector({
+							format:new ol.format.GeoJSON(),
               url: './test.json'
             })
           })
