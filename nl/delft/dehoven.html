@@ -21,13 +21,13 @@
         target: 'map',
         layers: [
           new ol.layer.Tile({
-            source: new ol.source.OSM()
+		  source: new ol.source.OSM()
           }),
           new ol.layer.Vector({
             title: 'added Layer',
             source: new ol.source.Vector({
-							format:new ol.format.GeoJSON(),
-              url: './test.json'
+		    format:new ol.format.GeoJSON(),
+		    url: 'test.json'
             })
           })
         ],
