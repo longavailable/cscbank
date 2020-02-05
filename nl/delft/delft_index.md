@@ -1,3 +1,3 @@
 # Delft
-## Landmark closest to you
-[Den Hoven](denhoven.md)
+## Landmark or business district closest to you
+[Den Hoven](denhoven.html)
