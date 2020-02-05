@@ -27,13 +27,13 @@
             title: 'added Layer',
             source: new ol.source.GeoJSON({
               projection : 'EPSG:3857',
-              url: 'test.json'
+              url: './test.json'
             })
           })
         ],
         view: new ol.View({
           center: ol.proj.fromLonLat([4.3529887,51.9972972]),
-          zoom: 16
+          zoom: 3
         })
       });
     </script>
