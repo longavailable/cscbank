@@ -17,6 +17,25 @@
     <h2>De Hoven</h2>
     <div id="map" class="map"></div>
     <script type="text/javascript">
+	    var style = new ol.style({
+  fill: new ol.style.Fill({
+    color: 'rgba(255, 255, 255, 0.6)'
+  }),
+  stroke: new ol.style.Stroke({
+    color: '#319FD3',
+    width: 1
+  }),
+  text: new ol.style.Text({
+    font: '12px Calibri,sans-serif',
+    fill: new ol.style.Fill({
+      color: '#000'
+    }),
+    stroke: new ol.style.Stroke({
+      color: '#fff',
+      width: 3
+    })
+  })
+});
       var map = new ol.Map({
         target: 'map',
         layers: [
@@ -28,7 +47,11 @@
             source: new ol.source.Vector({
 		    format:new ol.format.GeoJSON(),
 		    url: 'test.json'
-            })
+            }),
+            style: function(feature) {
+		    style.getText().setText(feature.get('name'));
+		    return style;
+	    }
           })
         ],
         view: new ol.View({
