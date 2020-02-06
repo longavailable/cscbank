@@ -11,7 +11,8 @@ Supposing the html was copied from template.
 	- Notice the comment line ```<!-- Lontitude,latitude and zoom level of landmark or CBD/BC -->```, and replace them with yours.
 	- Add your place to Google Maps.
 		- Click the editable [link](		https://drive.google.com/open?id=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&usp=sharing) directly, or copy the address ```https://drive.google.com/open?id=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&usp=sharing``` to your browser.
-		- Add your place in the cscbank map. Add layer → Add marker will work.
+		- Add your place in the cscbank map. Add layer → Add marker will work. 
 
-## 3. Embed this map to your application to make it more valuable.
+## 3. Embed this map to your application to make it more valuable
+Copy the followings:<br>
 ```<iframe src="https://www.google.com/maps/d/embed?mid=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&ll=51.9972972,4.3529887&z=17" height="100%" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>```
