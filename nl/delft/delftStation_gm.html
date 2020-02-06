@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+		<style>
+			.map {
+				height:500px;
+				width:100%;
+			}
+		</style>
+		<title>Google Maps for CSCBank</title>
+	</head>
+	<body>
+		<h2>De Hoven</h2>
+		<div id="map" class="map">
+			var lon = 4.3584267;
+			var lat = 52.0074761；
+			var zoomLevel = 17;
+			var links = myFunction(lat,lon,zoomLevel);
+			<script>
+				function myFunction(lat,lon,zoomLevel) {
+					var  = "https://www.google.com/maps/d/embed?mid=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&ll={lat},{lon}&z={zoomLevel}";
+					var res = str.replace("{lat}", lat).replace("{lon}", lon).replace("{zoomLevel}",zoomLevel);
+					return res;
+				}
+			</script>
+			<iframe src=links height="100%" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+	</body>
+</html>
