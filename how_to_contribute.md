@@ -10,7 +10,7 @@ Supposing the html was copied from template.
 	- Notice the comment line ```<!-- Name of landmark or CBD/BC -->```, and replace ```De Hoven``` with your place in ```h2``` tag.
 	- Notice the comment line ```<!-- Lontitude,latitude and zoom level of landmark or CBD/BC -->```, and replace them with yours.
 	- Add your place to Google Maps.
-		- Click the editable [link](https://drive.google.com/open?id=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&usp=sharing) directly, or copy the address ```https://drive.google.com/open?id=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&usp=sharing``` to your browser.
+		- Click the editable [link](https://drive.google.com/open?id=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&usp=sharing) directly, or copy the address ```https://drive.google.com/open?id=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&usp=sharing``` to your browser. You will find the 'Edit' button after you login your Google Account.
 		- Add your place in the cscbank map. Add layer → Add marker will work. 
 
 ## 3. Embed this map to your application to make it more valuable

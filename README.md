@@ -11,5 +11,5 @@ Banks/ATMs near your place which works for CSC debit cards.
 
 [Template](template/template_index.md)<br><br>
 
-### This won't work without your help
-Follow [How to contribute](how_to_contribute.md), if you'd like to contribute.
+## Contribution
+Follow the [how to contribute](how_to_contribute.md).
