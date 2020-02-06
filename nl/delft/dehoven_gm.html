@@ -13,7 +13,18 @@
 	<body>
 		<h2>De Hoven</h2>
 		<div id="map" class="map">
-			<iframe src="https://www.google.com/maps/d/embed?mid=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&ll=51.9972972,4.3529887&z=17" height="100%" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			var lon = 4.3529887;
+			var lat = 51.9972972;
+			var zoomLevel = 17;
+			var links = myFunction(lat,lon,zoomLevel);
+			<script>
+				function myFunction(lat,lon,zoomLevel) {
+					var  = "https://www.google.com/maps/d/embed?mid=1EXIq_76pPad6DefALKFKps2CDxNLRJi5&ll={lat},{lon}&z={zoomLevel}";
+					var res = str.replace("{lat}", lat).replace("{lon}", lon).replace("{zoomLevel}",zoomLevel);
+					return res;
+				}
+			</script>
+			<iframe src=links height="100%" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 		</div>
 	</body>
 </html>
