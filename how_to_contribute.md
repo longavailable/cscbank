@@ -3,7 +3,7 @@
 Just send me a Google Maps link. I will add it when I am free.
 
 ## 2. Contribute to this project
-- Create a country folder, add it to [readme.md](readme.md), and create a ```<country>_index.md``` file in the country folder.
+- Create a country folder, add it to [README.md](README.md), and create a ```<country>_index.md``` file in the country folder.
 - Create a city folder, add it to the ```<country>_index.md```, and create a ```<city>_index.md``` file in the city folder.
 - Create a landmark or CBD/BC ```html``` file, add it to the ```<city>_index.md``` file, and edit it as follows.
 Supposing the html was copied from template.
